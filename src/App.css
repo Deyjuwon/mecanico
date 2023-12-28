@@ -1,0 +1,22 @@
+a {
+  text-decoration: none;
+  color: #000;
+
+}
+
+li {
+  list-style: none;
+}
+
+.px {
+  padding-right: 4rem;
+  padding-left: 4rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .px {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+}

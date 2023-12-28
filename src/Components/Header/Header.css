@@ -1,0 +1,63 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    font-size: 15px;
+    
+}
+
+
+.l-header {
+    font-size: 24px;
+}
+
+.l-header > p >span:nth-child(1) {
+    color: 	#63979f;
+}
+
+.r-header ul {
+    display: flex;
+    gap: 16px;
+}
+
+.r-header > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .r-header {
+        display: none;
+        
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        z-index: 100;
+    }
+
+    .mobile-nav ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #fff;
+        gap: 3.5rem;
+        width: 100%;
+        top: 0px;
+        padding: 4rem 0rem;
+        text-align: center;
+     
+        right: 0;
+        height: 2000px;
+        overflow-x: hidden;
+
+    }
+}
