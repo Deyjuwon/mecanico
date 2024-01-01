@@ -14,7 +14,7 @@ const Hero = () => {
                 <ServiceInput />
             </div>
             <div className="r-hero p-hero">
-                <img src="src\assets\man-on-call.png" alt="" />
+                <img src="../src/assets/man-on-call.png" alt="" />
                 
             </div>
 
