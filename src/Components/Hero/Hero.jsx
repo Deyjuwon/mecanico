@@ -1,6 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import ServiceInput from '../ServicesInput/ServiceInput'
+import ManOnCall from '/src/assets/man-on-call.png'
 
 
 const Hero = () => {
@@ -14,7 +15,7 @@ const Hero = () => {
                 <ServiceInput />
             </div>
             <div className="r-hero p-hero">
-                <img src="../src/assets/man-on-call.png" alt="" />
+                <img src={ManOnCall} alt="" />
                 
             </div>
 
