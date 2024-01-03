@@ -7,7 +7,8 @@
     width: 80%;
     outline: none;
     font-size: 16px;
-    padding-left: 25px;
+    padding-left: 35px;
+    position: relative;
 }
 
 .serviceBtn {
@@ -15,9 +16,39 @@
     width: 20%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    font-size: 16px;
+    font-size: 15sspx;
     cursor: pointer;
     border: none;
     background-color: #63979f;
     color: #fff;
+}
+
+.searchIcon {
+    position: absolute;
+    top: 473px;
+    left: 70px;
+}
+
+.serviceDD {
+    position: absolute;
+    top: 520px;
+
+}
+
+.serviceDD ul li {
+    border: 1px solid gray;
+    width: 530px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.serviceDD ul li:hover {
+    background-color: #63979f;
+    color: #fff;
+    
 }
