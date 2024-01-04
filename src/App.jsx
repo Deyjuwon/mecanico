@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './Components/Header/Header'
 import Hero from './Components/Hero/Hero'
+import WhyMecanico from './Components/WhyMecanico/WhyMecanico'
 
 function App() {
   
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Header />
       <Hero />
+      <WhyMecanico />
     </div>
   )
 }

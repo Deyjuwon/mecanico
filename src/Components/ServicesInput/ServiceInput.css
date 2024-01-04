@@ -14,12 +14,12 @@
 .serviceBtn {
     height: 50px;
     width: 20%;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
     font-size: 15sspx;
     cursor: pointer;
     border: none;
-    background-color: #63979f;
+    background-color: #E77D22;
     color: #fff;
 }
 
@@ -37,7 +37,7 @@
 
 .serviceDD ul li {
     border: 1px solid gray;
-    width: 530px;
+    width: 550px;
     height: 50px;
     text-align: center;
     display: flex;
