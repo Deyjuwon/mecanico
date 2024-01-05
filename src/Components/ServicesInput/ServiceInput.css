@@ -1,5 +1,11 @@
 .serviceForm {
     display: flex;
+    flex-direction: column;
+    
+}
+
+.serviceFormTop {
+    display: flex;
 }
 
 .serviceInput {
@@ -25,19 +31,20 @@
 
 .searchIcon {
     position: absolute;
-    top: 473px;
+    top: 472px;
     left: 70px;
 }
 
-.serviceDD {
+/* .serviceDD {
     position: absolute;
     top: 520px;
 
-}
+} */
 
 .serviceDD ul li {
     border: 1px solid gray;
-    width: 550px;
+    /* width: 550px; */
+    width: 100%;
     height: 50px;
     text-align: center;
     display: flex;

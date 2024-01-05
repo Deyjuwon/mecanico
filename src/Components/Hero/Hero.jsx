@@ -9,10 +9,16 @@ const Hero = () => {
     <section className='hero px'>
         <hr />
         <div className="hero-container">
-            <div className="l-hero p-hero">
+            <div className="a-l-hero p-hero">
+              <div className='l-hero'>
                 <h1>Unleashing Seamless Auto Solutions!</h1>
                 <p>Schedule your vehicle service and repair. Connect with tested and trusted professionals and technicians. Buy quality and affordable car parts.</p>
+
+              </div>
+              <div>
                 <ServiceInput />
+              </div>
+                
             </div>
             <div className="r-hero p-hero">
                 <img src={ManOnCall} alt="" />

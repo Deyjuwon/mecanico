@@ -13,10 +13,14 @@ const ServiceInput = () => {
   };
   return (
     <form className='serviceForm' action="">
+      <div className='serviceFormTop'>
         <input className='serviceInput' type="text" placeholder='Search Services' onClick={toggleDropdown} />
 
         <button type="submit" className='serviceBtn'>Get Estimate</button>
         <CiSearch className='searchIcon' size={26} />
+
+      </div>
+        
 
         {isDropdownOpen && (
         <div className='serviceDD'>
