@@ -34,7 +34,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        order: 2;
+        
         /* margin-top: 7rem; */
     }
     
@@ -55,18 +55,15 @@
     
     .hero-container {
         display: flex;
-        justify-content: center;
+    
         
         flex-direction: column;
         /* align-items: center; */
         
     }
 
-    .r-hero> img {
-        width: 100%;
-        
-    }
+    
     .r-hero {
-        order: 1;
+        display: none;
     }
 }
