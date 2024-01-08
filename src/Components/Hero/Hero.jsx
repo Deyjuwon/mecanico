@@ -6,9 +6,9 @@ import ManOnCall from '/src/assets/man-on-call.png'
 
 const Hero = () => {
   return (
-    <section className='hero px'>
+    <section className='hero '>
         <hr />
-        <div className="hero-container">
+        <div className="hero-container px">
             <div className="a-l-hero p-hero">
               <div className='l-hero'>
                 <h1>Unleashing Seamless Auto Solutions!</h1>
