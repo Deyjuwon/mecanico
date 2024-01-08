@@ -34,8 +34,9 @@
         width: 100%;
         display: flex;
         flex-direction: column;
+        margin-top: 2rem;
         
-        /* margin-top: 7rem; */
+     
     }
     
     .p-hero {
@@ -47,15 +48,14 @@
         padding-bottom: 20px;
         line-height: 1.3;
         
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
+        
+       
     }
     
     .l-hero > p {
         line-height: 1.5;
         padding-bottom: 22px;
-        font-size: 14px;
+        font-size: 16px;
         
     }
     
@@ -64,7 +64,7 @@
     
         
         flex-direction: column;
-        /* align-items: center; */
+        
         
     }
 
