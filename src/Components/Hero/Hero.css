@@ -43,14 +43,20 @@
     }
 
     .l-hero > h1 {
-        font-size: 40px;
+        font-size: 35px;
         padding-bottom: 20px;
-        line-height: 1.2;
+        line-height: 1.3;
+        
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
     }
     
     .l-hero > p {
-        line-height: 1.2;
+        line-height: 1.5;
         padding-bottom: 22px;
+        font-size: 14px;
+        
     }
     
     .hero-container {

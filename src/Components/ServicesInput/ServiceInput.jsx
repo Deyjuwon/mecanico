@@ -16,7 +16,7 @@ const ServiceInput = () => {
       <div className='serviceFormTop'>
         <input className='serviceInput' type="text" placeholder='Search Services' onClick={toggleDropdown} />
 
-        <button type="submit" className='serviceBtn'>Get Estimate</button>
+        <button type="submit" className='serviceBtn'>GO</button>
         <CiSearch className='searchIcon' size={26} />
 
       </div>

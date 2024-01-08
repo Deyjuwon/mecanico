@@ -15,6 +15,8 @@
     font-size: 16px;
     padding-left: 35px;
     position: relative;
+    border-radius: 0px;
+    border: 1px solid gray;
 }
 
 .serviceBtn {
@@ -31,7 +33,7 @@
 
 .searchIcon {
     position: absolute;
-    top: 472px;
+    top: 425px;
     left: 70px;
 }
 
@@ -59,4 +61,35 @@
     color: #fff;
 
     
+}
+
+@media only screen and (max-width: 600px) {
+    .searchIcon {
+        position: absolute;
+        top: 433px;
+        left: 30px;
+    }
+
+    .serviceInput {
+        height: 45px;
+        width: 80%;
+        outline: none;
+        font-size: 14px;
+        padding-left: 32px;
+        position: relative;
+        border-radius: 0px;
+        
+    }
+
+    .serviceBtn {
+        height: 45px;
+        width: 20%;
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+        font-size: 14px;
+        cursor: pointer;
+        border: none;
+        background-color: #E77D22;
+        color: #fff;
+    }
 }
