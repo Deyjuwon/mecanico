@@ -6,11 +6,7 @@ const WhyMecanico = () => {
     <div className='whyMec'>
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut ratione a molestias vitae sequi voluptas nemo obcaecati quas eos deleniti eligendi, modi autem non alias optio neque provident nisi delectus?
       Nemo alias non unde sit commodi hic ut culpa magnam laborum aliquam, praesentium fugit sunt, voluptas dolor incidunt excepturi dolores, fugiat eum. Aspernatur ipsum possimus, saepe deleniti fugit voluptatibus nemo.
-      Perferendis sequi quam tempora, aspernatur fuga laudantium rerum. Atque reprehenderit amet veritatis laborum blanditiis accusantium enim consectetur, repellat possimus error odit recusandae dolores dolor impedit non hic quibusdam placeat alias.
-      Architecto, exercitationem ut ex magni minima, expedita beatae rerum vero nostrum quis quae voluptate atque sed reprehenderit! Distinctio minus nemo quisquam sed, soluta corrupti, id accusamus cumque atque dolores modi.
-      Facere ratione rerum molestiae esse sapiente quisquam dolor necessitatibus illo adipisci impedit, sunt ut placeat velit, aliquam rem est a beatae repellendus! Asperiores harum voluptate ipsum deserunt consectetur, eius nesciunt?
-      Quaerat a quod sapiente corporis dolor consequuntur eligendi ullam? Itaque repudiandae ipsam quos omnis pariatur minima delectus esse, aperiam ut nam odit hic ipsum quas doloribus vitae magnam a? Neque.
-      Tempora voluptates expedita quam, quisquam ipsum at sequi neque autem rem repellendus modi repellat tempore molestias fugit, suscipit et nesciunt, quae omnis officia ratione dolor labore sit. Sapiente, adipisci ut!
+       et nesciunt, quae omnis officia ratione dolor labore sit. Sapiente, adipisci ut!
       Labore saepe, at illum nostrum eligendi sit cumque repudiandae nobis deleniti doloribus architecto ipsam sunt? Laboriosam ducimus vel nihil, natus ullam, odit, laudantium dignissimos sapiente ipsum omnis in eius ut.
       Saepe impedit, rem est dignissimos ipsa esse omnis minima eveniet deleniti magnam voluptate commodi provident cum et vitae fugiat suscipit! Alias delectus aliquam sapiente eligendi sit libero? Officiis, repellendus modi.
       Officia, expedita nisi. Repellat, veniam ad ipsam sed vitae molestias ullam. Voluptates qui deleniti necessitatibus iste magnam doloremque eveniet labore a nisi praesentium ex consectetur, soluta vel fugit cumque assumenda.
