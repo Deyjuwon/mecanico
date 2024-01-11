@@ -11,7 +11,7 @@ const HowMecanico = () => {
     }, []) 
 
   return (
-    <div className='howMec px'>
+    <div className='howMec '>
         <div className='how-header'>
             <h1 data-aos='fade-up'>How mecánico Works</h1>
             <p data-aos='fade-up'>We know scheduling car repair and maintenance can be stressful. But the truth is, it doesn't have to be. mecánico is hassle-free car repair for the modern world.</p>
@@ -31,7 +31,7 @@ const HowMecanico = () => {
             </div>
             <div className='step-r' data-aos='fade-down'>
                 <h1>Compare estimates and choose a shop</h1>
-                <p>Compare estimates from local repair shops in the Openbay Network by distance, customer reviews, and price. All estimates include parts, labor rate and taxes.</p>
+                <p>Compare estimates from local repair shops in the mecánico Network by distance, customer reviews, and price. All estimates include parts, labor rate and taxes.</p>
             </div>
         </div>
         <div className='how-steps '>
@@ -40,7 +40,7 @@ const HowMecanico = () => {
             </div>
             <div className='step-r' data-aos='fade-left'>
                 <h1>Schedule an appointment</h1>
-                <p>Easily schedule an appointment right through your Openbay account. All services booked through Openbay are backed by our Peace-of-Mind Guarantee.</p>
+                <p>Easily schedule an appointment right through your mecánico account. All services booked through mecánico are backed by our Peace-of-Mind Guarantee.</p>
             </div>
         </div>
         <div>
