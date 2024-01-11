@@ -1,0 +1,59 @@
+.howMec {
+    margin-top: 3rem;
+}
+
+.how-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+
+}
+
+.how-header h1 {
+    color: #5376ad;
+}
+
+.how-header p {
+    color: #5f6163;
+    font-size: 18px;
+    padding-bottom: 4rem;
+}
+
+.how-steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+    padding-bottom: 5rem;
+    border-bottom: 2px solid gray;
+    padding-top: 5rem;
+}
+
+.step-r {
+    width: 40%;
+}
+
+.step-r h1 {
+    color: #5376ad;
+    line-height: 1.5;
+    padding-bottom: 1rem;
+}
+
+.step-r p {
+    color: #5f6163;
+    font-size: 18px;
+}
+
+.mid-step > .step-l {
+    order: 2;
+}
+
+.step-l > img {
+    box-shadow: 37px 7px 58px -8px rgba(0,0,0,0.52);
+-webkit-box-shadow: 37px 7px 58px -8px rgba(0,0,0,0.52);
+-moz-box-shadow: 37px 7px 58px -8px rgba(0,0,0,0.52);
+}

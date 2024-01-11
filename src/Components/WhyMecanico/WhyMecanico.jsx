@@ -14,7 +14,7 @@ const WhyMecanico = () => {
   }, [])
   return (
     <div className='whyMec' >
-      <h1 data-aos="fade-up">Why Should I Book Service Through Mecanico?</h1>
+      <h1 data-aos="fade-up">Why Should I Book Service Through mecánico?</h1>
       <div>
         <ul>
           <li data-aos="fade-up"><span><FaTools size={30} /></span><span>1,000s of services to select from.</span></li>
