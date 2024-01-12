@@ -31,6 +31,7 @@
     padding-bottom: 5rem;
     border-bottom: 1px solid gray;
     padding-top: 5rem;
+    flex-wrap: wrap;
 }
 
 .step-r {
@@ -58,7 +59,7 @@
 }
 
 .step-l > img {
-    box-shadow: 37px 7px 58px -8px rgba(0,0,0,0.52);
-    -webkit-box-shadow: 37px 7px 58px -8px rgba(0,0,0,0.52);
-    -moz-box-shadow: 37px 7px 58px -8px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 29px 7px 21px 5px rgba(0,0,0,0.12);
+-moz-box-shadow: 29px 7px 21px 5px rgba(0,0,0,0.12);
+box-shadow: 29px 7px 21px 5px rgba(0,0,0,0.12);
 }

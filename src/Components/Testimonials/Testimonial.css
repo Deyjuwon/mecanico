@@ -1,0 +1,21 @@
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.testimonial-container > h1 {
+    color: #5376ad;
+    
+}
+
+.testimonial-container > div {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
