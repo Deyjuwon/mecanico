@@ -8,7 +8,7 @@ const testimonials = [
     {
         id: 2,
         name: "Kehinde Lawal",
-        testimony: "Absolutely loved services by mecánico! I have been using it since I have moved to bay area from east coast. I have no complaints and happy with their services!",
+        testimony: "Absolutely loved services by mecánico! I have been using it since I have moved to lagos from Abuja. I have no complaints and happy with their services!",
         imgUrl: ""
     },
     {

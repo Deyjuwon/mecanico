@@ -12,7 +12,7 @@ const Hero = () => {
   }, [])
   return (
     <section className='hero '>
-        <hr />
+ 
         <div className="hero-container px">
             <div className="a-l-hero p-hero" data-aos="fade-up">
               <div className='l-hero'>
