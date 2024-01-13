@@ -52,7 +52,7 @@
     }
 
     .l-hero > h1 {
-        font-size: 35px;
+        font-size: 32px;
         padding-bottom: 20px;
         line-height: 1.2;
         text-align: center;
@@ -64,19 +64,16 @@
     .l-hero > p {
         line-height: 1.5;
         padding-bottom: 22px;
-        font-size: 16px;
+        font-size: 15px;
         text-align: center;
         
     }
     
     .hero-container {
         display: flex;
-        background-color: #63979f;
-        color: #fff;
+        background-color: #fff;
+        color: #000;
         flex-direction: column;
-
-        
-        
     }
 
     

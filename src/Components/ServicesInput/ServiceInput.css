@@ -66,8 +66,8 @@
 @media only screen and (max-width: 600px) {
     .searchIcon {
         position: absolute;
-        top: 365px;
-        left: 30px;
+        top: 218px;
+        left: 8px;
     }
 
     .serviceInput {
@@ -75,7 +75,7 @@
         width: 80%;
         outline: none;
         font-size: 14px;
-        padding-left: 32px;
+        padding-left: 35px;
         position: relative;
         border-radius: 0px;
         
@@ -99,4 +99,6 @@
         background-color: #E77D22;
         color: #fff;
     }
+
+    
 }
