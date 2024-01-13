@@ -25,7 +25,7 @@ const Hero = () => {
               </div>
                 
             </div>
-            <div className="r-hero p-hero" data-aos="fade-left">
+            <div className="r-hero p-hero" data-aos="zoom-in">
                 <img src={ManOnCall} alt="" />
                      
             </div>

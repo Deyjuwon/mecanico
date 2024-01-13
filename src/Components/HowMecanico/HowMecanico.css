@@ -59,7 +59,7 @@
 }
 
 .step-l > img {
-    -webkit-box-shadow: 29px 7px 21px 5px rgba(0,0,0,0.12);
--moz-box-shadow: 29px 7px 21px 5px rgba(0,0,0,0.12);
-box-shadow: 29px 7px 21px 5px rgba(0,0,0,0.12);
+    box-shadow: 24px -10px 74px -30px rgba(0,0,0,0.47);
+-webkit-box-shadow: 24px -10px 74px -30px rgba(0,0,0,0.47);
+-moz-box-shadow: 24px -10px 74px -30px rgba(0,0,0,0.47);
 }

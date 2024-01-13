@@ -26,6 +26,13 @@
     margin-top: 7rem;
 }
 
+.r-hero >img {
+    transition: transform .2s; 
+}
+
+.r-hero>img:hover {
+    transform: scale(1.1);
+}
 
 
 
