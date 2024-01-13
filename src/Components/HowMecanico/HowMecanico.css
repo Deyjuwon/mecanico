@@ -72,7 +72,6 @@
         align-items: center;
         justify-content: center;
         width: 100%;
-   
         gap: 15px;
         padding-left: 2rem;
         padding-right: 2rem;
@@ -83,6 +82,12 @@
         color: #5376ad;
         text-align: center;
         font-size: 28px;
+    }
+
+    .how-header p {
+        color: #5f6163;
+        font-size: 15px;
+        padding-bottom: 4rem;
     }
     
     
@@ -120,7 +125,7 @@
 
     .step-r p {
         color: #5f6163;
-        font-size: 16px;
+        font-size: 15px;
         
     }
 
