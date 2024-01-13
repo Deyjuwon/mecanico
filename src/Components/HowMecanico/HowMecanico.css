@@ -63,3 +63,74 @@
 -webkit-box-shadow: 24px -10px 74px -30px rgba(0,0,0,0.47);
 -moz-box-shadow: 24px -10px 74px -30px rgba(0,0,0,0.47);
 }
+
+@media only screen and (max-width: 600px)  {
+
+    .how-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+   
+        gap: 15px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    
+    }
+
+    .how-header h1 {
+        color: #5376ad;
+        text-align: center;
+        font-size: 28px;
+    }
+    
+    
+    .how-steps {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6rem;
+        padding-bottom: 5rem;
+        border-bottom: 1px solid gray;
+        padding-top: 5rem;
+        flex-direction: column;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        
+
+    }
+
+    .step-r {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .step-r h1 {
+        color: #5376ad;
+        line-height: 1.3;
+        padding-bottom: 1rem;
+        font-size: 26px;
+
+    }
+
+    .step-r p {
+        color: #5f6163;
+        font-size: 16px;
+        
+    }
+
+    .mid-step {
+        background-color: #ebeced;
+    
+    }
+
+    .mid-step > .step-l {
+        order: 2;
+    }
+
+}
