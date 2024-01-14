@@ -1,5 +1,6 @@
 import './App.css'
 import Brands from './Components/Brands/Brands'
+import Footer from './Components/Footer/Footer'
 import Header from './Components/Header/Header'
 import Hero from './Components/Hero/Hero'
 import HowMecanico from './Components/HowMecanico/HowMecanico'
@@ -15,7 +16,8 @@ function App() {
       <WhyMecanico />
       <HowMecanico />
       <Testimonial />
-      <Brands />
+      {/* <Brands /> */}
+      <Footer />
       
     </div>
   )
