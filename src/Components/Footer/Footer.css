@@ -1,0 +1,38 @@
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 18rem;
+    color: #5f6163;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    font-size: 14px;
+ 
+}
+
+
+.ft-1 span {
+    font-size: 24px;
+}
+
+.ft-1 > p >span:nth-child(1) {
+    color: 	#63979f;
+}
+
+
+
+.ft {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ft ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+
+.ft ul li a {
+    color: #5f6163;
+}
