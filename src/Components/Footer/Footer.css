@@ -6,6 +6,7 @@ footer {
     margin-top: 6rem;
     margin-bottom: 2rem;
     font-size: 14px;
+    flex-wrap: wrap;
  
 }
 
@@ -35,4 +36,17 @@ footer {
 
 .ft ul li a {
     color: #5f6163;
+}
+
+.ft-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.socials {
+    display: flex;
+    gap: 15px;
+    align-items: center;
 }
