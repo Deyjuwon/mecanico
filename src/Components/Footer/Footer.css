@@ -50,3 +50,34 @@ footer {
     gap: 15px;
     align-items: center;
 }
+
+@media only screen and (max-width: 600px) {
+    footer {
+        display: flex;
+        justify-content: center;
+        gap: 0rem;
+        font-size: 14px;
+        flex-direction: column;
+        align-items: center;
+     
+    }
+
+    .ft-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        border-bottom: 1px solid gray;
+        padding-bottom: 2rem;
+    }
+
+    .ft-2 {
+        padding-bottom: 2rem;
+        border-bottom: 1px solid gray;
+        padding-top: 1.5rem;
+    }
+
+    .ft-3 {
+        padding-top: 1.5rem;
+    }
+    f
+}
