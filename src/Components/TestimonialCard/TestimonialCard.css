@@ -4,6 +4,8 @@
     border: none;
     font-size: 15px;
     color: #5f6163;
+    /* color: #FFFEFC; */
+    background-color: #fffefcd8;
     padding: 2rem 2rem;
     display: flex;
     flex-direction: column;
