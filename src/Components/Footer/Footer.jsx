@@ -31,7 +31,9 @@ const Footer = () => {
       <div className='ft ft-3'>
         <p>hello@mecanico.com</p>
         <p>+234 807 7727 941</p>
-        <p>No 4, Adeola Odeku, <br />Victoria Island, <br />Lagos State.</p>
+        <p>No 4, Adeola Odeku,</p>
+        <p>Victoria Island,</p>
+        <p>Lagos State.</p>
 
       </div>
     </footer>
