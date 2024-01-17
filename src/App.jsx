@@ -1,5 +1,6 @@
 import './App.css'
 import Brands from './Components/Brands/Brands'
+import Copyright from './Components/Copyright/Copyright'
 import Footer from './Components/Footer/Footer'
 import Header from './Components/Header/Header'
 import Hero from './Components/Hero/Hero'
@@ -18,6 +19,7 @@ function App() {
       <Testimonial />
       {/* <Brands /> */}
       <Footer />
+      <Copyright />
       
     </div>
   )
