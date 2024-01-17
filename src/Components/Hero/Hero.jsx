@@ -14,7 +14,7 @@ const Hero = () => {
     <section className='hero '>
  
         <div className="hero-container px">
-            <div className="a-l-hero p-hero" data-aos="fade-up">
+            <div className="a-l-hero p-hero" data-aos="fade-right">
               <div className='l-hero'>
                 <h1>Unleashing Seamless Auto Solutions!</h1>
                 <p>Schedule your vehicle service and repair. Connect with tested and trusted professionals and technicians. Buy quality and affordable car parts.</p>
