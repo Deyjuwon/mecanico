@@ -16,7 +16,7 @@ const Testimonial = () => {
         <div data-aos='fade-up'>
             {testimonials.map((testimonial) => 
               <TestimonialCard key={testimonial.id} name={testimonial.name}
-               testimony={testimonial.testimony} />)}
+               testimony={testimonial.testimony} image={testimonial.imgUrl} />)}
         </div>
         
         

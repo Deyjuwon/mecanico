@@ -34,7 +34,7 @@ const TestimonialCard = (props) => {
         </div>
             
         <div className='user-details testimonial-card-bottom'>
-            <img src={ManOnCall} alt="" />
+            <img src={props.image} alt="" />
             <p>{props.name}</p>
         </div>
     </div>
