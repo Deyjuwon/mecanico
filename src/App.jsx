@@ -1,25 +1,23 @@
 import './App.css'
-import Brands from './Components/Brands/Brands'
-import Copyright from './Components/Copyright/Copyright'
-import Footer from './Components/Footer/Footer'
-import Header from './Components/Header/Header'
-import Hero from './Components/Hero/Hero'
-import HowMecanico from './Components/HowMecanico/HowMecanico'
-import Testimonial from './Components/Testimonials/Testimonial'
-import WhyMecanico from './Components/WhyMecanico/WhyMecanico'
+import Header from './components/Header/Header'
+import { Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
+import Individuals from './pages/Individuals'
 
+ 
 function App() {
-  
+
   return (
     <div>
       <Header />
-      <Hero />
-      <WhyMecanico />
-      <HowMecanico />
-      <Testimonial />
-      {/* <Brands /> */}
-      <Footer />
-      <Copyright />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/Individuals' element={<Individuals />} />
+          
+          
+        </Routes>
+  
+      
       
     </div>
   )

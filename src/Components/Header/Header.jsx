@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Header.css'
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
 
@@ -11,11 +12,11 @@ const Header = () => {
   return (
     <header className='px'>
         <div className="l-header">
-            <p><span>mecá</span><span>nico</span></p>
+            <Link to="./"><p><span className='meca'>mecá</span><span>nico</span></p></Link>
         </div>
         <div className={isOpened ? 'mobile-nav' : 'r-header'}>
             <ul>
-                <li><a href="">Individuals</a></li>
+                <NavLink to="./Individuals"><li>Individuals</li></NavLink>
                 <li><a href="">Professionals</a></li>
                 <li><a href="">Services</a></li>
                 <li><a href="">Marketplace</a></li>
