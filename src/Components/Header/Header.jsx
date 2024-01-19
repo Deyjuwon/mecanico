@@ -17,9 +17,9 @@ const Header = () => {
         <div className={isOpened ? 'mobile-nav' : 'r-header'}>
             <ul>
                 <NavLink to="./Individuals"><li>Individuals</li></NavLink>
-                <li><a href="">Professionals</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Marketplace</a></li>
+                <NavLink to="./Professionals"><li>Professionals</li></NavLink>
+                <NavLink to="./Services"><li>Services</li></NavLink>
+                <NavLink to="./Marketplace"><li>Marketplace</li></NavLink>
             </ul>
         </div>
         

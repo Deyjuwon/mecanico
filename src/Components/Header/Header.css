@@ -32,8 +32,13 @@ header {
     gap: 16px;
 }
 
-.r-header > ul > li > a:hover {
-    text-decoration: underline;
+.r-header ul li {
+    transition: transform .5s;
+}
+
+.r-header ul li:hover {
+     color: #63979f;
+    transform: scale(1.1);
 }
 
 .hamburger {
