@@ -1,7 +1,7 @@
 import React from 'react'
 import './TestimonialCard.css'
 import { CiStar } from "react-icons/ci";
-import ManOnCall from '/src/assets/man-on-call.png'
+import TIMG from '/src/assets/TImg1.jpeg';
 
 const TestimonialCard = (props) => {
   return (
@@ -34,7 +34,7 @@ const TestimonialCard = (props) => {
         </div>
             
         <div className='user-details testimonial-card-bottom'>
-            <img src={props.image} alt="" />
+            <img src={TIMG} alt="" />
             <p>{props.name}</p>
         </div>
     </div>
