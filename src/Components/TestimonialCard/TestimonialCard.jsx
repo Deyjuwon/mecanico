@@ -3,7 +3,7 @@ import './TestimonialCard.css'
 import { CiStar } from "react-icons/ci";
 import TIMG from '/src/assets/TImg1.jpeg';
 
-const TestimonialCard = (props) => {
+const TestimonialCard = ({ name, testimony, imgUrl }) => {
   return (
     <div className='testimonial-card'>
         <div className='testimonial-card-top'>
@@ -30,12 +30,13 @@ const TestimonialCard = (props) => {
                 }} size={25}/></span>
             </div>
 
-            <p>{props.testimony}</p>
+            <p>{testimony}</p>
         </div>
             
         <div className='user-details testimonial-card-bottom'>
             <img src={TIMG} alt="" />
-            <p>{props.name}</p>
+            <p>{name}</p>
+            
         </div>
     </div>
   )
