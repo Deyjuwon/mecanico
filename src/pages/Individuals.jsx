@@ -1,8 +1,11 @@
 import React from 'react'
+import HeroIndividual from '../Components/Individuals/HeroIndividual'
 
 const Individuals = () => {
   return (
-    <div>Individuals</div>
+    <div>
+      <HeroIndividual />
+    </div>
   )
 }
 
