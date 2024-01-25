@@ -7,6 +7,7 @@ import { Link, NavLink } from 'react-router-dom';
 const Header = () => {
 
     const [isOpened, setIsOpened] = useState(false)
+    
     const navItems = [
         { to: '/Individuals', label: 'Individuals' },
         { to: '/Professionals', label: 'Professionals' },
