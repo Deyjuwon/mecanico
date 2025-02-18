@@ -6,6 +6,7 @@
 
 .serviceFormTop {
     display: flex;
+    position: relative;
 }
 
 .serviceInput {
@@ -37,8 +38,8 @@
 
 .searchIcon {
     position: absolute;
-    top: 245px;
-    left: 8px;
+    top: 12px;
+    left: 1%;
 }
 
 /* .serviceDD {
