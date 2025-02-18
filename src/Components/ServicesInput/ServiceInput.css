@@ -71,8 +71,8 @@
 @media only screen and (max-width: 600px) {
     .searchIcon {
         position: absolute;
-        top: 218px;
-        left: 8px;
+        top: 10px;
+        left: 2%;
     }
 
     .serviceInput {
